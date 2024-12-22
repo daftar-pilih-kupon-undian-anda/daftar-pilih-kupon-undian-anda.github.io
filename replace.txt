@@ -1,0 +1,2 @@
+grep -rl "daftar-pilih-kupon-undian-anda" . | xargs sed -i "s/daftar-pilih-kupon-undian-anda/new-name/g"
+grep -rl "Daftar Pilih Kupon Undian Anda" . | xargs sed -i "s/Daftar Pilih Kupon Undian Anda/New Name/g"
